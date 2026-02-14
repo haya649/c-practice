@@ -1,8 +1,8 @@
-# コンパイル成功時のみ実行するワンライナー
+## コンパイル成功時のみ実行するワンライナー
 
 gcc -O2 -std=c11 a.c -lm && ./a.out
 
-# デバック用
+## デバック用
 
 gcc -O2 -std=c11 -Wall -Wextra -Wshadow -Wconversion -fsanitize=address,undefined a.c -lm && ./a.out
 

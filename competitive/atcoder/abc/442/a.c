@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     char s[11];
-    scanf("%s", s);
+    scanf("%10s", s);
     int count = 0;
     for (int i = 0; s[i] != '\0'; i++) {
         if (s[i] == 'i' || s[i] == 'j') {
